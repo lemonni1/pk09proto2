@@ -29,6 +29,7 @@ p {
   justify-self: start;
   align-self: end;
   width: 100%;
+  height: 7.9vh;
   grid-area: bottomnav;
 }
 footer {
@@ -50,6 +51,7 @@ ul {
   }
   
   li a {
+    height: 5vh;
     display: block;
     color: white;
     text-align: center;
