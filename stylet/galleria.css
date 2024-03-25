@@ -93,3 +93,8 @@ body {
   .demo:hover {
     opacity: 1;
   }
+
+  #contentti{
+    max-width:50%;
+    margin: 0 auto;
+  }
