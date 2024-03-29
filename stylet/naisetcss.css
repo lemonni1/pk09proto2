@@ -1,7 +1,7 @@
 #naisetkuva1 {
     width: 100%;
     height: 30vw;
-    background-image: url("../kuvat/naisetedustus.jpeg");
+    background-image: linear-gradient(0deg, rgba(10,10,1,1) 0%, rgba(10,10,1,0.8071429255295868) 14%, rgba(10,10,1,0) 100%),url("../kuvat/naisetedustus.jpeg");
     background-position: center;
     background-size: cover;
 }
@@ -11,9 +11,25 @@
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-color: rgb(10, 10, 1);
     grid-template-areas: "teksti lista" "teksti2 lista";
+}
+#sisaltoa2 {
+    color:antiquewhite;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(10, 10, 1);
+    text-align: center;
+}
+#sisaltoa2 h3 {
+    margin: 0%;
+}
+#someupotus {
+    width: 25%;
+    height: 45vh;
+    background-color: rebeccapurple;
+    margin:auto;
 }
 #sisaltoteksti {
     margin: auto;
