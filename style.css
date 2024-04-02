@@ -33,9 +33,10 @@ p {
   grid-area: bottomnav;
 }
 footer {
+    background-color: rgb(10, 10, 1);
+    color: white;
     bottom: 0%;
     height: 5vh;
-    text-align: center;
 }
 ul {
     list-style-type: none;
