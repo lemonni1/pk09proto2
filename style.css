@@ -9,6 +9,7 @@ header {
     grid-template-rows: auto;
     grid-template-areas: "logo topnav topnav" "logo bottomnav bottomnav";
     column-gap: 0vw;
+    max-height: 230px;
 }
 h1 {
     font-size: 300%;
@@ -63,7 +64,7 @@ ul {
   }
   
   li a {
-    height: 5vh;
+    height: 2vh;
     display: block;
     color: white;
     text-align: center;
