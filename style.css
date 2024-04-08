@@ -45,7 +45,18 @@ ul {
     overflow: hidden;
     background-color: black;
   }
-  
+
+  ul ul {
+    display: none;
+    position: absolute;
+  }
+  ul ul li {
+    width: 100%;
+  }
+  ul li:hover > ul {
+    display: inherit;
+  }
+
   li {
     width: 20%;
     float: left;
