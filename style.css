@@ -34,10 +34,20 @@ p {
   grid-area: bottomnav;
 }
 footer {
+    display: grid;
+    grid-template-columns: auto auto;
     background-color: rgb(10, 10, 1);
     color: white;
     bottom: 0%;
     height: 5vh;
+}
+#foot2 {
+  padding-right: 1%;
+  text-align: right;
+}
+#foot2 a {
+  text-decoration: none;
+  color: white;
 }
 ul {
     list-style-type: none;
