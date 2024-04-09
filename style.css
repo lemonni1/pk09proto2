@@ -21,6 +21,11 @@ p {
   justify-self: center;
   grid-area: logo;
 }
+
+#logo{
+  max-height: 95%;
+}
+
 #topnav {
   justify-self: start;
   align-self: center;
