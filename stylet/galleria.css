@@ -95,3 +95,13 @@
     max-width:50%;
     margin: 0 auto;
   }
+
+  .column img{
+    overflow: hidden;
+    object-fit:fill;
+  }
+  
+  .crop{
+    height: 118px;
+    object-fit: cover;
+  }
