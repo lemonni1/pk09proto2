@@ -1,44 +1,76 @@
 #ylakuva {
     width: 100%;
     height: 30vw;
-    background-image: linear-gradient(0deg, rgba(0,0,0,1) 8%, rgba(0,0,0,0) 100%),url("../kuvat/Ottelubg.jpeg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 8%, rgba(0, 0, 0, 0) 100%), url("../kuvat/Ottelubg.jpeg");
     background-position: center;
     background-size: cover;
 }
+
 #satunnainen-keski-sisalto {
-    display:flex;
+    display: flex;
     width: 100%;
     height: 60vh;
     background-color: rgb(0, 0, 0);
 }
+
 .keskisisalto {
     margin: auto;
 }
+
 #keski1 {
     width: 15%;
     height: 25vh;
-    background-color: blue;
+    background-color: rgb(22, 22, 22);
 }
+
 #keski2 {
     width: 25%;
     height: 45vh;
     background-color: rebeccapurple;
 }
+
 #keski3 {
     width: 20vw;
     height: 35vh;
     background-color: aquamarine;
 }
+
 #keski1 h2 {
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
 #keski3 p {
     margin: auto;
     padding: 5%;
 }
+
 #kumppanit {
     width: 100%;
     height: 30vh;
     background-color: bisque;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
 }
