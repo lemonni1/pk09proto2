@@ -1,5 +1,3 @@
-
-
   img {
     vertical-align: middle;
   }
@@ -17,6 +15,7 @@
   .mySlides img {
     display: block;
     margin:auto;
+    max-height: 17vw;
   }
   /* Add a pointer when hovering over the thumbnail images */
   .cursor {
