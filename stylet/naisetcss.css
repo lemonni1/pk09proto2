@@ -12,6 +12,9 @@
     background-position: center;
     background-size: cover;
 }
+#contentti {
+    background-color: black;
+}
 #sisaltoa {
     color:antiquewhite;
     display:grid;
@@ -27,10 +30,16 @@
 #kuvabox {
     margin: auto;
 }
+#kuvabox p {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
 #yhteystiedot {
     display: grid;
     grid-template-columns: auto auto;
     margin: auto;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 #sisaltoa2 {
     color:antiquewhite;
