@@ -15,6 +15,7 @@
 
 .keskisisalto {
     margin: auto;
+    color: white;
 }
 
 #keski1 {
@@ -55,12 +56,11 @@
 
 
 .fa {
-    padding: 20px;
+    padding: 10%;
     font-size: 30px;
-    width: 50px;
+    width: 15%;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
 }
 
 .fa:hover {
@@ -75,4 +75,32 @@
 .fa-instagram {
     background: #125688;
     color: white;
+}
+@media screen and (max-width:650px) {
+    #satunnainen-keski-sisalto {
+        flex-direction: column;
+        height: auto;
+    }
+    #keski1 {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    .fa {
+        margin: auto;
+    }
+    .keskisisalto {
+        margin-bottom: 5%;
+    }
+    #keski2 {
+        width: 70vw;
+    }
+    #someupotus {
+        width: 30vw;
+        height: 100%;
+        margin: 0%;
+    }
+    #keski3 {
+        width: 60%;
+    }
 }
