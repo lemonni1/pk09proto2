@@ -10,6 +10,7 @@ header {
     grid-template-areas: "logo topnav topnav" "logo bottomnav bottomnav";
     column-gap: 0vw;
     max-height: 230px;
+    position: relative;
 }
 h1 {
     font-size: 300%;
@@ -33,10 +34,11 @@ p {
 }
 #bottomnav {
   justify-self: start;
-  align-self: end;
   width: 100%;
-  height: 7.9vh;
+  height: fit-content;
   grid-area: bottomnav;
+  position: relative;
+  top: 14%;
 }
 footer {
     display: grid;
@@ -49,6 +51,8 @@ footer {
 #foot2 {
   padding-right: 1%;
   text-align: right;
+  position: relative;
+  right: 1vw;
 }
 #foot2 a {
   text-decoration: none;
@@ -96,6 +100,8 @@ ul {
     background-color: #faec0a;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
+
+/*Tää on kai sit vähän isommille mobiileille*/
 @media screen and (max-width:650px) {
   header {
     grid-template-columns: auto auto;
@@ -114,9 +120,30 @@ ul {
     width: 100vw;
   }
   #bottomnav {
-    height:36vh;
+    height:33vh;
+    top: -2%;
   }
   h1 {
-    font-size: 250%;
+    font-size: 240%;
+  }
+}
+/*Tää on pienille mobiililaitteille, esim. puhelimille*/
+@media screen and (max-width:420px) {
+  header {
+    background-image: none;
+    background-color: #faec0a;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "topnav" "logo" "bottomnav";
+    max-height:fit-content;
+  }
+  #topnav {
+    margin: auto;
+  }
+  #bottomnav {
+    height:35vh;
+  }
+  h1 {
+    font-size: 300%;
   }
 }

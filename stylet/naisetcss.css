@@ -26,6 +26,7 @@
 #sisaltoteksti {
     margin: auto;
     text-align: center;
+    padding-bottom: 2vh;
 }
 #kuvabox {
     margin: auto;
@@ -67,5 +68,17 @@
     #kuvabox img {
         width: 100%;
         height: auto;
+    }
+}
+@media screen and (max-width:420px) {
+    #yhteystiedot {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-top: 2vh;
+    }
+    #yhteystiedot p {
+        padding-bottom: 2vh;
     }
 }

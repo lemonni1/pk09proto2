@@ -79,6 +79,33 @@
         padding-bottom: 10%;
     }
 }
+@media screen and (max-width:420px) {
+    #kuvabox1 {
+        width: 90vw;
+        column-gap: 9vw;
+        row-gap: 6vh;
+        padding-top: 10%;
+        grid-template-columns: auto auto;
+    }
+    #kuvabox2 {
+        grid-template-columns: auto auto;
+        width: 90vw;
+        column-gap: 9vw;
+        row-gap: 6vh;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    #yhteystiedot {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-top: 2vh;
+    }
+    #yhteystiedot p {
+        padding-bottom: 2vh;
+    }
+}
 .pelkuva {
     margin:auto;
     max-height: 150px;
@@ -93,9 +120,11 @@
     object-fit: cover;
 }
 #yhteystiedot {
-    display:grid;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
     margin: auto;
-    grid-template-areas: "yht1 yht2";
+    padding-top: 2vh;
     padding-bottom: 2vh;
 }
 #yht1 {
