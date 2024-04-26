@@ -31,7 +31,7 @@
     padding-bottom: 5%;
     width: 40vw;
     column-gap: 2vw;
-    row-gap: 3vh;
+    row-gap: 4vh;
     margin:auto;
 }
 #kuvabox2 {
@@ -42,39 +42,66 @@
     padding-bottom: 5%;
     width: 40vw;
     column-gap: 2vw;
-    row-gap: 3vh;
+    row-gap: 4vh;
     margin:auto;
 }
 @media screen and (max-width: 1100px) {
     #kuvabox1 {
+        width: 76vw;
+        column-gap: 9vw;
+        row-gap: 6vh;
+        padding-top: 10%;
+        grid-template-columns: auto auto auto;
+    }
+    #kuvabox2 {
+        grid-template-columns: auto auto auto;
+        width: 76vw;
+        column-gap: 9vw;
+        row-gap: 6vh;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+}
+@media screen and (max-width: 650px) {
+    #kuvabox1 {
+        width: 76vw;
+        column-gap: 9vw;
+        row-gap: 6vh;
+        padding-top: 10%;
         grid-template-columns: auto auto;
     }
     #kuvabox2 {
         grid-template-columns: auto auto;
+        width: 76vw;
+        column-gap: 9vw;
+        row-gap: 6vh;
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
 }
 .pelkuva {
     margin:auto;
-    height: 150px;
+    max-height: 150px;
     width: 150px;
     text-align: center;
 }
+/*Koska haluttiin jotenkin pitää 9:16 kuvasuhde, mutta kuvien koko oli ok, piti laskea: 
+(kuvan alkuperäinen korkeus 3213px / alkuperäinen leveys 5712px) x haluttu leveys 150px = haluttu korkeus ~266px*/
 .peku {
-    height: 150px;
+    max-height: 150px;
     width: 150px;
+    object-fit: cover;
 }
 #yhteystiedot {
     display:grid;
     margin: auto;
-    grid-template-areas: "yht1 tyhja yht2";
+    grid-template-areas: "yht1 yht2";
+    padding-bottom: 2vh;
 }
 #yht1 {
     grid-area: yht1;
 }
 #yht2 {
+    padding-left: 5vw;
     grid-area: yht2;
-}
-#tyhja {
-    width: 2vh;
-    grid-area: tyhja;
 }

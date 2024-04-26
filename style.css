@@ -79,7 +79,7 @@ ul {
   }
   
   li a {
-    height: 2vh;
+    height: 3vh;
     display: block;
     color: white;
     text-align: center;
@@ -114,7 +114,7 @@ ul {
     width: 100vw;
   }
   #bottomnav {
-    height:32vh;
+    height:36vh;
   }
   h1 {
     font-size: 250%;
