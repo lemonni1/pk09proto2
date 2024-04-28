@@ -78,6 +78,7 @@
   .column {
     float: left;
     width: 16.66%;
+    height: 6vw;
   }
   
   /* Add a transparency effect for thumnbail images */
@@ -94,13 +95,10 @@
     max-width:50%;
     margin: 0 auto;
   }
-
-  .column img{
-    overflow: hidden;
-    object-fit:fill;
-  }
   
   .crop{
-    height: 118px;
+    float: left;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
   }
