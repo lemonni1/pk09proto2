@@ -67,6 +67,7 @@ ul {
   }
 
   ul ul {
+    width: 20%;
     display: none;
     position: absolute;
   }
@@ -117,7 +118,7 @@ ul {
     float:none;
   }
   li ul li {
-    width: 100vw;
+    width: 100%;
   }
   #bottomnav {
     height:33vh;
@@ -125,6 +126,9 @@ ul {
   }
   h1 {
     font-size: 240%;
+  }
+  ul ul {
+    width: 100%;
   }
 }
 /*Tää on pienille mobiililaitteille, esim. puhelimille*/
