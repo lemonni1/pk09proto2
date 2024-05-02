@@ -26,9 +26,12 @@
 #keski2 {
     width: 25%;
     height: 45vh;
-    background-color: rebeccapurple;
 }
-#someupotus {
+.someupotus {
+    width: 100%;
+    height: 100%;
+}
+iframe {
     width: 100%;
     height: 100%;
 }
@@ -98,10 +101,14 @@
     #keski2 {
         width: 70vw;
     }
-    #someupotus {
-        width: 30vw;
+    .someupotus {
+        width: 100%;
         height: 100%;
         margin: 0%;
+    }
+    iframe {
+        width: 100%;
+        height: 100%;
     }
     #keski3 {
         width: 60%;
