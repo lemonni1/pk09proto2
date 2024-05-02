@@ -14,13 +14,15 @@
 }
 #contentti {
     background-color: black;
+    min-height: 100vh;
 }
 #sisaltoa {
+    padding-top: 20vh;
     color:antiquewhite;
     display:grid;
     grid-template-rows: auto auto;
     width: 100%;
-    height: fit-content;
+    height: auto;
     background-color: rgb(0, 0, 1);
 }
 #sisaltoteksti {
@@ -30,6 +32,11 @@
 }
 #kuvabox {
     margin: auto;
+}
+#kuvabox img {
+    margin: auto;
+    max-width: 95%;
+    max-height: 100%;
 }
 #kuvabox p {
     padding-top: 1vh;
@@ -69,6 +76,7 @@
     #kuvabox img {
         width: 100%;
         height: auto;
+        max-width: 100%;
     }
 }
 @media screen and (max-width:420px) {

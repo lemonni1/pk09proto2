@@ -67,6 +67,7 @@ iframe {
     width: 15%;
     text-align: center;
     text-decoration: none;
+    border-radius: 30px;
 }
 
 .fa:hover {
