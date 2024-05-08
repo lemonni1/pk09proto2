@@ -77,6 +77,16 @@
         height: auto;
         max-width: 100%;
     }
+    #someupotus {
+        width: 60%;
+        height: 45vh;
+        margin:auto;
+        padding-bottom: 10vh;
+    }
+    .instagram-media {
+        margin: auto !important; 
+        width: calc(90% - 2px) !important;
+    }
 }
 @media screen and (max-width:420px) {
     #yhteystiedot {
@@ -88,5 +98,15 @@
     }
     #yhteystiedot p {
         padding-bottom: 2vh;
+    }
+    #someupotus {
+        width: auto;
+        height: 45vh;
+        margin:auto;
+        padding-bottom: 10vh;
+    }
+    .instagram-media {
+        margin: auto !important; 
+        width: calc(90% - 2px) !important;
     }
 }
